@@ -63,13 +63,21 @@ nav li {
 }
 .divv-heading-primaryyyy{
     font-size:xx-large;
-    font-family: Georgia, heading-primary-divi;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: blanchedalmond;
+}
+.divv-heading-primaryyyy-2{
+    font-size:xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+    padding-left: 32%;
 }
 .divv-heading-secondaryyyy{
     font-size:xx-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: blanchedalmond;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 .second-innerrr-contents-of-box-1{
     padding-left: 20px;
@@ -84,6 +92,7 @@ nav li {
 .secondary-listt-contents{
     font-size: x-large;
     font-weight: 700;
+    margin-left: 30px;
 }
 .outerrr-contents-of-box-2{
     margin-top: 60px;
@@ -153,233 +162,3 @@ footer{
     text-decoration: none;
     font-size: medium;
 }
-/* Here is the css for portfolio */
-.portfolio-container-on-topppp-22 {
-    color: blue;
-    top: 35%;
-    left: 50%;
-    font-size: 24px;
-    font-weight: bold;
-    background-image: url(pictures.jpg);
-    background-size: cover;
-    height: 400px;
-}
-.portfolio-headinggg-container-on-topppp-22{
-   left: 60%;
-   top:200px;
-   margin:0px;
-   text-align: center;
-   color:#c2c6ba;
-   font-size:40px;
-   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   background-color: #2f3437 ;
-}
-.portfolio-outerrrr-contents-of-box{
-    display: flex;
-    flex-direction: row;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-.portfolio-inerrrr-contents-of-box h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:50px;
-    padding-left: 60px;
-    padding-right: 150px;
-    padding-top: 80px;
-    color:aliceblue;
-    display: flex;
-    flex-direction: row;
-}
-.portfolio-multi-innerrrr-contents-of-box span {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(193, 193, 73);
-    padding-right: 40px;
-    
-}
-.portfolio-multi-innerrrr-contents-of-box h2 {
-    padding-top: 30px;
-    color: antiquewhite;
-    padding-left: 30px;
-}
-.portfolio-clickableee-buttonnnn{
-     color: #2f3437;
-     size: 20px;
-     text-decoration: none;
-     transition: 0.4s all;
-     padding-left: 60px;
-     padding-right: 60px;
-     
- }   
- .portfolio-fourthhhh-multi-innerrrr-contents-of-box button a:hover{
-     color: brown;
-     font-size: 40px;
-     padding-left: 20px;}
-.portfolio-secondddd-multi-innerrrr-contents-of-box h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:30px;
-    padding-left: 250px;
-    padding-right:20px;
-    padding-top: 20px;
-    color: aliceblue;
-}
-.portfolio-thirddd-multi-innerrrr-contents-of-box{
-    display: flex;
-    flex-direction: row;
-}
-.contents-of-thirddd-1{
-    padding-left:80px;
-    padding-right:50px;
-    padding-top: 20px;
-}
-.contents-of-thirddd-1 p {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:x-large;
-    color:aliceblue;
-}
-.contents-of-thirddd-1 span {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
-    color: rgb(193, 193, 73);
-}
-.portfolio-headinggg-container-on-topppp-333{
-    padding-top:10px;
-    padding-left:40%; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-    color: #2f3437;
-    background-color:aliceblue;   
-}
-.portfolio-outercontents-for-book-list{
-    display: flex;
-    flex-direction: row;
-    padding-top:40px;
-    padding-bottom: 20px;
-}
-.portfolio-outercontents-for-book-list-111{
-    padding-left:20px;
-    padding-right:20px;
-    background-color: azure;
-    margin-left: 20px;
-}
-.portfolio-outercontents-for-book-list-111 img {
-    margin-top: 20px;
-}
-.portfolio-outercontents-for-book-list-111 p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size:x-large;
-    padding-top:20px;
-}
-.portfolio-outercontents-for-book-list-111 span {
-    color: brown;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 500; 
-}
-.portfolio-outercontents-for-book-list-111 h1 {
-    color: #2f3437;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 20px;
-}
-.portfolio-outercontents-for-book-list-222{
-    background-color: azure;
-    margin-left: 20px;
-    padding-left:20px;
-    padding-right:20px;
-    margin-right: 20px;
-}
-.portfolio-outercontents-for-book-list-222 img{
-    padding-top: 20px;
-}
-.portfolio-outercontents-for-book-list-222 p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size:x-large;
-    padding-top:20px;
-}
-.portfolio-outercontents-for-book-list-222 span {
-    color: brown;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 500; 
-}
-.portfolio-outercontents-for-book-list-222 h1 {
-    color: #2f3437;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 20px;
-}
-.portfolio-outercontents-for-book-list-333{
-    background-color: azure;
-    margin-right:20px;
-    padding-left:20px;
-    padding-right:20px;
-}
-.portfolio-outercontents-for-book-list-333 img {
-    padding-top: 20px;
-}
-.portfolio-outercontents-for-book-list-333 p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size:x-large;
-    padding-top:20px;
-    
-}
-.portfolio-outercontents-for-book-list-333 span {
-    color: brown;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 500; 
-}
-.portfolio-outercontents-for-book-list-333 h1 {
-    color: #2f3437;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 20px;
-}
-.portfolio-outercontents-for-paintingss{
-    display: flex;
-    flex-direction:row;
-    margin-top: 20px;
-    padding-bottom: 20px;
-}
-.portfolioo-footer-outercontents{
-    color: black;
-    background-color:#c2c6ba;
-    height: 200px;
-
-}
-.portfolioo-footer-inner-contentssss{
-    text-align: center;
-    padding-top: 50px;
-
-}
-.portfolioo-footer-inner-contentssss h1{
-    font-size: xx-large;
-    font-family:serif;
-    
-}
-.portfolioo-footer-inner-contentssss p{
-    text-decoration: none;
-    font-size:large;
-    
-}
-.portfolioo-footer-inner-copyright{
-    text-align: center;
-    text-decoration: none;
-    font-size: medium;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
