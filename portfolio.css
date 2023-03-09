@@ -7,44 +7,36 @@ body {
     background-color:#2f3437;
 }
 
-.portfolioo-header-ontop{
-    height: 20px;
-    width: 100%;
+.portfolioo-homeee-header-on-toppp {
+    padding: 80px;
     background-color:#c2c6ba;
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 35px;
-    box-sizing: border-box;  
+    padding-top: 5px;
+    margin-bottom: 5px;
 }
-.portfolioo-headerr-contents-of-top{
-    display: flex;
-    flex-direction: row;
-}
-
 nav li {
-    margin: 20px;
+    margin: 9px;
     display: inline-block;
-}
-.portfolioo-primaryyy-contents-of-top ul li{
-    display: inline-block;
-    list-style-type: style none;
+    padding-left: 9px;
+    padding-top: 10px;
 }
 .portfolioo-primaryyy-contents-of-top ul li a{
    font-size: larger;
    font-weight: 800;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#2d3540;
-    list-style: none;
-    transition: 0.4s all;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color:#2d3540;
+   list-style: none;
+   transition: 0.4s all;
 }
 .portfolioo-primaryyy-contents-of-top ul li a:hover{
     color:#895654;
     text-decoration: none;
 }
-.portfolioo-secondaryyy-contents-of-top {
-    padding-left: 400px;
+.portfolioo-logo {
+    float: right;
+    padding-left: 5px;
+}
+.portfolioo-nav-list {
+    float: left;
 }
 .portfolio-container-on-topppp-22 {
     color: blue;
@@ -75,9 +67,9 @@ nav li {
 .portfolio-inerrrr-contents-of-box h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:50px;
-    padding-left: 60px;
-    padding-right: 150px;
-    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 30px;
     color:aliceblue;
     display: flex;
     flex-direction: row;
@@ -85,8 +77,8 @@ nav li {
 .portfolio-multi-innerrrr-contents-of-box span {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(193, 193, 73);
-    padding-right: 40px;
-    
+    padding-left: 20px;
+
 }
 .portfolio-multi-innerrrr-contents-of-box h2 {
     padding-top: 30px;
@@ -102,10 +94,11 @@ nav li {
      padding-right: 60px;
      
  }   
- .portfolio-fourthhhh-multi-innerrrr-contents-of-box button a:hover{
+.portfolio-fourthhhh-multi-innerrrr-contents-of-box button a:hover{
      color: brown;
      font-size: 40px;
-     padding-left: 20px;}
+     padding-left: 20px;
+}
 .portfolio-secondddd-multi-innerrrr-contents-of-box h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:30px;
@@ -116,15 +109,11 @@ nav li {
     margin-top: 30px;
     color: aliceblue;
 }
-.portfolio-thirddd-multi-innerrrr-contents-of-box{
-    display: flex;
-    flex-direction: row;
-    background-color:#f0f8ff76;
-}
 .contents-of-thirddd-1{
     padding-left:80px;
     padding-right:50px;
     padding-top: 20px;  
+    background-color:#f0f8ff76;
 }
 .contents-of-thirddd-1 p {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -137,6 +126,7 @@ nav li {
     font-size: xx-large;
     color: rgb(21 34 17 / 76%);
 }
+
 .portfolio-headinggg-container-on-topppp-333{
     padding-top:10px;
     padding-left:40%; 
@@ -281,14 +271,17 @@ nav li {
     color:#895654;
     font-size: 40px;
 }
+.portfolio-second-inerrrr-contents-of-box img {
+    height: 460px;
+    width: 330px;
+    margin-left: 40px;
+}
 .portfolio-second-inerrrr-contents-of-box q {
     font-family:'Times New Roman', Times, serif;
     font-size: larger;
+    padding-left: 20px;
     color:white;
     background-color: black;
-}
-.portfolio-childd-second-inerrrr-contents-of-box{
-    padding-top: 0px;
 }
 .portfolio-childd-innercontents-for-paintingss h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -303,6 +296,180 @@ nav li {
     margin-left: 5px;
     margin-right: 5px;
 }
+@media only screen and (max-width:780px) {
+    nav li {
+     display: inline-block;
+     padding-left: 10px; 
+     display:none;
+    }
+    .portfolio-container-on-topppp-22 {
+        color: blue;
+        top: 35%;
+        left: 50%;
+        font-size: 24px;
+        font-weight: bold;
+        background-image: url(pictures.jpg);
+        background-size: cover;
+        height: 200px;
+    }
+    .portfolio-headinggg-container-on-topppp-22{
+        left: 60%;
+        top:200px;
+        margin:0px;
+        text-align: center;
+        color:#c2c6ba;
+        font-size:20px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: #2f3437 ;
+     }
+     .portfolio-outerrrr-contents-of-box{
+        display: flex;
+        flex-direction:row;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .portfolio-inerrrr-contents-of-box h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:30px;
+        padding-left: 20px;
+        padding-right:30px;
+        padding-top: 10px;
+        color:aliceblue;
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolio-multi-innerrrr-contents-of-box span {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(193, 193, 73);
+        padding-left: 5px;
+    }
+    .portfolio-second-inerrrr-contents-of-box img {
+        height:490px;
+        width:350px;
+        margin: 0px;
+    }
+    .portfolio-multi-innerrrr-contents-of-box h2 {
+        padding-top: 30px;
+        color: antiquewhite;
+        padding-left: 30px;
+        font-size: medium;
+    }
+    .portfolio-secondddd-multi-innerrrr-contents-of-box h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:20px;
+        padding-left:10px;
+        padding-right:5px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        color: aliceblue;
+    }
+    .contents-of-thirddd-1{
+        padding-left:20px;
+        padding-right:0px;
+        padding-top: 20px;  
+        background-color:#f0f8ff76;
+    }
+    .contents-of-thirddd-1 p {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: medium;
+        color:#1a191ec2;
+        font-weight: 700;
+    }
+    .contents-of-thirddd-1 span {
+        font-family: monospace;
+        font-size:medium;
+        color: rgb(21 34 17 / 76%);
+    }
+    .portfolio-clickableee-buttonnnn{
+        color: #2f3437;
+        font-size: 15px;
+        text-decoration: none;
+        transition: 0.4s all;
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-top: 5px;
+        
+    }   
+   .portfolio-fourthhhh-multi-innerrrr-contents-of-box button a:hover{
+        color: brown;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    .portfolio-headinggg-container-on-topppp-333{
+        padding-top: 10px;
+        padding-left: 33%; 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        color: #2f3437;
+        background-color:aliceblue;   
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width:653px) {
+    .portfolio-second-inerrrr-contents-of-box img {
+        height:340px;
+        width:250px;
+        margin-top: 50px;
+    }
+    .portfolio-inerrrr-contents-of-box h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:30px;
+        padding-left: 60px;
+        padding-top: 20px;
+        color:aliceblue;
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolio-multi-innerrrr-contents-of-box span {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(193, 193, 73);
+        padding-left: 5px;
+    }
+    .portfolio-clickableee-buttonnnn{
+        color: #2f3437;
+        font-size: 15px;
+        text-decoration: none;
+        transition: 0.4s all;
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-top: 2px;
+        
+    }   
+   .portfolio-fourthhhh-multi-innerrrr-contents-of-box button a:hover{
+        color: brown;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+}
+@media only screen and (max-width:554px) {
+    .portfolio-second-inerrrr-contents-of-box img {
+        height:290px;
+        width:210px;
+        margin-top: 50px;
+    }
+    .portfolio-clickableee-buttonnnn{
+        color: #2f3437;
+        font-size: 12px;
+        text-decoration: none;
+        transition: 0.4s all;
+        padding-left: 60px;
+        padding-right: 60px;
+        
+    }   
+   .portfolio-fourthhhh-multi-innerrrr-contents-of-box button a:hover{
+        color: brown;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    .portfolio-second-inerrrr-contents-of-box q {
+        font-family:'Times New Roman', Times, serif;
+        font-size: 15px;
+        padding-left: 20px;
+        color:white;
+        background-color: black;
+    }
+}
+
 
 
 
