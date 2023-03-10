@@ -2,53 +2,53 @@
      margin:0;
      padding: 0;
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
- }
- body {
+}
+body {
      background-color:#2f3437;
- }
- .contacttt-header-ontop{
+}
+.contacttt-homeee-header-on-toppp {
    padding: 80px;
    background-color:#c2c6ba;
    padding-top: 5px;
-   margin-bottom: 5px;     
- } 
- nav li {
-     margin: 9px;
-     display: inline-block;
-     padding-left: 9px;
-     padding-top: 10px;
- }
- .contacttt-primaryyy-contents-of-top ul li a{
-   font-size: larger;
-   font-weight: 800;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#2d3540;
-    list-style: none;
-    transition: 0.4s all;
+   margin-bottom: 5px;
+}
+nav li {
+   margin: 9px;
+   display: inline-block;
+   padding-left: 9px;
+   padding-top: 10px;
+}
+.contacttt-primaryyy-contents-of-top ul li a{
+  font-size: larger;
+  font-weight: 800;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:#2d3540;
+  list-style: none;
+  transition: 0.4s all;
 }
 .contacttt-primaryyy-contents-of-top ul li a:hover{
-    color:#895654;
-    text-decoration: none;
+   color:#895654;
+   text-decoration: none;
 }
-.logo {
+.contacttt-logo {
    float: right;
    padding-left: 5px;
 }
-.nav-list {
+.contacttt-nav-list {
    float: left;
 }
- .contactt-containerr-out-boxx {
+.contactt-containerr-out-boxx {
     background-color: #ede9e8;
     height: 200px;
     margin-top: 40px;
- }
- .contactt-containerr-out-boxx h1 {
+}
+.contactt-containerr-out-boxx h1 {
     font-family: 'Times New Roman', Times, serif;
     color: #2f3437;
     padding-left: 500px;
     padding-top:60px;
  }
- .contactt-containerr-out-boxx p {
+.contactt-containerr-out-boxx p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
     font-size: large;
     padding-left: 460px;
@@ -119,6 +119,49 @@
    width: 500px;
    color: white;
 
+}
+@media only screen and (max-width:780px) {
+   nav li {
+    display: inline-block;
+    padding-left: 10px; 
+    display:none;
+   }
+}
+@media only screen and (max-width:876px) {
+   .contacttt-logo{
+       display: none;
+   } 
+   .contactt-containerr-out-boxx {
+      height: 130px;
+      margin-top: 30px;
+  }
+  .contactt-containerr-out-boxx h1 {
+      padding-left: 270px;
+      padding-top:20px;
+   }
+  .contactt-containerr-out-boxx p {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
+      font-size: large;
+      padding-left: 220px;
+      background-color: #c7b5a9;
+   }
+}
+@media only screen and (max-width:550px) {
+   .contactt-containerr-out-boxx {
+      margin-top: 30px;
+      height:120px ;
+  }
+  .contactt-containerr-out-boxx h1 {
+      padding-left: 150px;
+      padding-top:20px;
+      font-size: 20px;
+   }
+   .contactt-containerr-out-boxx p {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
+      font-size: small;
+      padding-left: 110px;
+      background-color: #c7b5a9;
+   }
 }
 
  
