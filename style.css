@@ -192,7 +192,6 @@ footer{
     margin: 10px;
     color: #2d3540;
 }
- 
 @media only screen and (max-width:780px) {
     nav li {
      display: inline-block;

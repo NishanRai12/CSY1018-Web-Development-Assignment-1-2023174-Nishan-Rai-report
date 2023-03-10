@@ -113,25 +113,72 @@ nav li {
    padding-left: 120px;
    padding-top: 20px;
 }
-.contactt-parent-div-for-info {
+.childd-div-compartment-1-image {
+   height: 640px;
+   width: 550px;
+}
+footer{
+   color: black;
+   background-color:#c2c6ba;
+   height: 240px;
+   display: flex;
+   flex-direction: row;
+}
+.contacttt-footer-inner-contentssss{
+   text-align: center;
+   padding-top: 80px;
+}
+.contacttt-footer-inner-contentssss h1{
+   font-size: xx-large;
+   font-family: serif;
+   
+}
+.contacttt-footer-inner-contentssss a {
+   text-decoration: none;
+   font-size: large;
+   color: brown;
+   font-weight: bold;
+   font-family: sans-serif;
+}
+.contacttt-footer-inner-copyright{
+   text-align: center;
+   text-decoration: none;
+   font-size: medium;
+}
+.contacttt-parent-div-for-info {
    display: grid;
    grid-template-columns: auto auto;
    width: 500px;
-   color: white;
-   padding-left: 450px;
-   padding-top: 50px;
+   color:#2d3540;
+   padding-left: 40px;
+   padding-top: 20px;
+   padding-bottom: 20px;
 }
-.childd-div-compartment-1-image {
+.contacttt-div-compartment-1-image {
    height: 638px;
    width: 550px;
 }
-.contactt-child-div-for-info h1 {
+.contacttt-child-div-for-info h1 {
    font-family: 'Times New Roman', Times, serif;
    font-size: 28px;
 }
-.contactt-child-div-for-info  p {
+.contacttt-child-div-for-info  p {
    padding-top: 5px;
    font-size: 18px;
+   font-weight: bold;
+}
+.contacttt-heading-for-socialmedia-links h1 {
+   padding-top: 60px;
+   padding-left: 100px;
+   font-family: 'Times New Roman', Times, serif;
+   color: #2d3540;
+}
+.contacttt-socailmedia-links {
+   padding-left: 110px;
+}
+.contacttt-socailmedia-links a {
+   margin: 10px;
+   color: #2d3540;
 }
 
 @media only screen and (max-width:780px) {
@@ -191,23 +238,11 @@ nav li {
       font-size: large;
       padding-left: 20px;
    }
-   .contactt-parent-div-for-info {
-      padding-left: 230px;
-      padding-top: 50px;
-   }
-   .contactt-child-div-for-info h1 {
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 20px;
-   }
-   .contactt-child-div-for-info  p {
-      padding-top: 5px;
-      font-size: 14px;
-   }
 }
 @media only screen and (max-width:550px) {
    .contactt-containerr-out-boxx {
       margin-top: 30px;
-      height:120px ;
+      height:90px ;
   }
   .contactt-containerr-out-boxx h1 {
       padding-left: 150px;
@@ -246,18 +281,6 @@ nav li {
    .contactt-shortmessage-last p {
       font-size: medium;
       padding-left: 5px;
-   }
-   .contactt-parent-div-for-info {
-      padding-left: 90px;
-      padding-top: 50px;
-   }
-   .contactt-child-div-for-info h1 {
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 12px;
-   }
-   .contactt-child-div-for-info  p {
-      padding-top: 5px;
-      font-size: 8px;
    }
 }
 
