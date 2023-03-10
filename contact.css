@@ -1,10 +1,10 @@
 *{
-     margin:0;
-     padding: 0;
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+   margin:0;
+   padding: 0;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 body {
-     background-color:#2f3437;
+   background-color:#2f3437;
 }
 .contacttt-homeee-header-on-toppp {
    padding: 80px;
@@ -38,88 +38,102 @@ nav li {
    float: left;
 }
 .contactt-containerr-out-boxx {
-    background-color: #ede9e8;
-    height: 200px;
-    margin-top: 40px;
+   background-color: #ede9e8;
+   height: 200px;
+   margin-top: 40px;
 }
 .contactt-containerr-out-boxx h1 {
-    font-family: 'Times New Roman', Times, serif;
-    color: #2f3437;
-    padding-left: 500px;
-    padding-top:60px;
- }
+   font-family: 'Times New Roman', Times, serif;
+   color: #2f3437;
+   padding-left: 500px;
+   padding-top:60px;
+}
 .contactt-containerr-out-boxx p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
-    font-size: large;
-    padding-left: 460px;
-    background-color: #c7b5a9;
- }
- .contactt-parenttt-div-compartment{
-    display: flex;
-    flex-direction: row;
-    padding-top: 50px;
-    padding-left: 80px;
- }
- .contactt-childdd-div-compartment-2 {
-    background-color:#ede9e8;  
- }
- .contactt-innerr-child-div-compartment-2-1 h1 {
-    padding-top: 10px;
-    padding-left: 80px;
-    font-family: 'Times New Roman', Times, serif;
-    color: #8d695a;
- }
- .contactt-innerr-child-div-compartment-2-1 form {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
- }
- .contactt-innerr-child-div-compartment-2-1 label {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #2f3437;
-    font-weight: bold;
- }
- .contactt-innerr-child-div-compartment-2-2{
-    padding-left: 120px;
-    padding-top: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #2f3437;
-    font-weight: bold;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
+   font-size: large;
+   padding-left: 460px;
+   background-color: #c7b5a9;
+}
+.contactt-parenttt-div-compartment{
+   display: flex;
+   flex-direction: row;
+   padding-top: 50px;
+   padding-left: 80px;
+}
+.contactt-childdd-div-compartment-2 {
+   background-color:#ede9e8;  
+}
+.contactt-innerr-child-div-compartment-2-1 h1 {
+   padding-top: 10px;
+   padding-left: 80px;
+   font-family: 'Times New Roman', Times, serif;
+   color: #8d695a;
+}
+.contactt-innerr-child-div-compartment-2-1 form {
+   padding-top: 20px;
+   padding-bottom: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+.contactt-innerr-child-div-compartment-2-1 label {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: #2f3437;
+   font-weight: bold;
+}
+.contactt-innerr-child-div-compartment-2-2{
+   padding-left: 120px;
+   padding-top: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: #2f3437;
+   font-weight: bold;
 
- }
- .contactt-innerr-child-div-compartment-2-2 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #2f3437;
-    font-weight: bold;
- }
- .contactt-clicklable-submit-button{
-    padding-left: 250px;
-    margin-top: 20px;
- }
- .contactt-clicklable-submit-button button {
-    font-size: larger;
-    width: 60px;
-    transition: 0.5s;
- }
- .contactt-clicklable-submit-button button:hover{
-    color:white;
-    background-color: #8d695a;
-    font-size: 20px;
- }
+}
+.contactt-innerr-child-div-compartment-2-2 p {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: #2f3437;
+   font-weight: bold;
+}
+.contactt-clicklable-submit-button{
+   padding-left: 250px;
+   margin-top: 20px;
+}
+.contactt-clicklable-submit-button button {
+   font-size: larger;
+   width: 60px;
+   transition: 0.5s;
+}
+.contactt-clicklable-submit-button button:hover{
+   color:white;
+   background-color: #8d695a;
+   font-size: 20px;
+}
 .contactt-shortmessage-last p {
-    font-size: x-large;
-    font-family: serif;
-    padding-left: 120px;
-    padding-top: 20px;
+   font-size: x-large;
+   font-family: serif;
+   padding-left: 120px;
+   padding-top: 20px;
 }
 .contactt-parent-div-for-info {
    display: grid;
    grid-template-columns: auto auto;
    width: 500px;
    color: white;
-
+   padding-left: 450px;
+   padding-top: 50px;
 }
+.childd-div-compartment-1-image {
+   height: 638px;
+   width: 550px;
+}
+.contactt-child-div-for-info h1 {
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 28px;
+}
+.contactt-child-div-for-info  p {
+   padding-top: 5px;
+   font-size: 18px;
+}
+
 @media only screen and (max-width:780px) {
    nav li {
     display: inline-block;
@@ -140,10 +154,54 @@ nav li {
       padding-top:20px;
    }
   .contactt-containerr-out-boxx p {
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
       font-size: large;
       padding-left: 220px;
-      background-color: #c7b5a9;
+   }
+   .contactt-parenttt-div-compartment{
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+   .childd-div-compartment-1-image {
+      height: 460px;
+      width: 390px;
+   }
+   .contactt-innerr-child-div-compartment-2-1 h1 {
+      font-size: 20px;
+   }
+   .contactt-innerr-child-div-compartment-2-1 label {
+      font-size: 10px;
+   }
+   .contactt-innerr-child-div-compartment{
+      display: flex;
+      flex-direction: column;
+   }
+   .contactt-innerr-child-div-compartment-2-2{
+      padding-left: 20px;
+      padding-top: 20px;
+      font-size: 10px;
+   }
+   .contactt-clicklable-submit-button{
+      padding-left: 150px;
+      margin-top: 20px;
+   }
+   .contactt-clicklable-submit-button button {
+      font-size: medium;
+   }
+   .contactt-shortmessage-last p {
+      font-size: large;
+      padding-left: 20px;
+   }
+   .contactt-parent-div-for-info {
+      padding-left: 230px;
+      padding-top: 50px;
+   }
+   .contactt-child-div-for-info h1 {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+   }
+   .contactt-child-div-for-info  p {
+      padding-top: 5px;
+      font-size: 14px;
    }
 }
 @media only screen and (max-width:550px) {
@@ -153,14 +211,53 @@ nav li {
   }
   .contactt-containerr-out-boxx h1 {
       padding-left: 150px;
-      padding-top:20px;
       font-size: 20px;
    }
    .contactt-containerr-out-boxx p {
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifs;
       font-size: small;
       padding-left: 110px;
-      background-color: #c7b5a9;
+   }
+   .contactt-parenttt-div-compartment{
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+   .childd-div-compartment-1-image {
+      height: 260px;
+      width: 210px;
+   }
+   .contactt-innerr-child-div-compartment-2-1 h1 {
+      font-size: 15px;
+   }
+   .contactt-innerr-child-div-compartment-2-1 label {
+      font-size: 5px;
+   }
+   .contactt-innerr-child-div-compartment-2-2{
+      padding-left: 20px;
+      padding-top: 20px;
+      font-size: 10px;
+   }
+   .contactt-clicklable-submit-button{
+      padding-left: 100px;
+      margin-top: 20px;
+   }
+   .contactt-clicklable-submit-button button {
+      font-size: medium;
+   }
+   .contactt-shortmessage-last p {
+      font-size: medium;
+      padding-left: 5px;
+   }
+   .contactt-parent-div-for-info {
+      padding-left: 90px;
+      padding-top: 50px;
+   }
+   .contactt-child-div-for-info h1 {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 12px;
+   }
+   .contactt-child-div-for-info  p {
+      padding-top: 5px;
+      font-size: 8px;
    }
 }
 
