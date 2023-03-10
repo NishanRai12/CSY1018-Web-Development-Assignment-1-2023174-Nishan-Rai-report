@@ -245,13 +245,11 @@ footer{
     .inneer-contents-of-box-1 {
         padding-left: 90px;
         height: 600px;
-
     }
 
 }
 @media only screen and (max-width:876px) {
     .logo{
         display: none;
-    }
-    
+    } 
 }

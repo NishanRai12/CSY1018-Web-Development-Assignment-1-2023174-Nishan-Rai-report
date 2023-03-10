@@ -404,6 +404,63 @@ nav li {
         background-color:aliceblue;   
         font-size: 25px;
     }
+    .portfolio-outercontents-for-book-list{
+        display: flex;
+        flex-direction: column;
+        padding-top:40px;
+        padding-bottom: 20px;
+    }
+    .portfolio-outercontents-for-book-list-111{
+        padding-left:20px;
+        padding-right:20px;
+        background-color: azure;
+        margin-left: 30px;
+    }
+    .portfolio-outercontents-for-book-list-222{
+        background-color: azure;
+        margin-left: 20px;
+        padding-left:20px;
+        padding-right:20px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+    .portfolio-outercontents-for-book-list-333{
+        background-color: azure;
+        margin-right:20px;
+        padding-left:20px;
+        padding-right:20px;
+        margin-top: 30px;
+    }
+    .portfolio-outercontents-for-book-list-111 img {
+        margin-top: 20px;
+        padding-left: 200px;
+    }
+    .portfolio-outercontents-for-book-list-222 img{
+        padding-top: 20px;
+        padding-left: 200px;
+    }
+    .portfolio-outercontents-for-book-list-333 img {
+        padding-top: 20px;
+        padding-left: 200px;
+    }
+    .portfolio-headinggg-container-on-topppp-333{
+        padding-top:10px;
+        padding-left:20%; 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        color: #2f3437;
+        background-color:aliceblue;   
+    }
+    .portfolio-outercontents-for-paintingss{
+        display: flex;
+        flex-direction:column;
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    .portfolio-childd-innercontents-for-paintingss h1 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: azure;
+        padding-left: 30px;
+    }
 }
 @media only screen and (max-width:653px) {
     .portfolio-second-inerrrr-contents-of-box img {
@@ -434,12 +491,7 @@ nav li {
         padding-right: 60px;
         margin-top: 2px;
         
-    }   
-   .portfolio-fourthhhh-multi-innerrrr-contents-of-box button a:hover{
-        color: brown;
-        font-size: 20px;
-        padding-left: 20px;
-    }
+    }  
 }
 @media only screen and (max-width:554px) {
     .portfolio-second-inerrrr-contents-of-box img {
@@ -468,6 +520,43 @@ nav li {
         color:white;
         background-color: black;
     }
+    .portfolio-outercontents-for-book-list-111 img {
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .portfolio-outercontents-for-book-list-222 img{
+        padding-top: 20px;
+        margin-left: 40px;
+    }
+    .portfolio-outercontents-for-book-list-333 img {
+        padding-top: 20px;
+        margin-left: 40px;
+    }
+
+
+}
+@media only screen and (max-width:628px) {
+    .portfolio-outercontents-for-book-list-111 img {
+        margin-top: 20px;
+        margin-left: 10px;
+        padding-left: 40px;
+    }
+    .portfolio-outercontents-for-book-list-222 img{
+        padding-top: 20px;
+        margin-left: 10px;
+        padding-left: 40px;
+    }
+    .portfolio-outercontents-for-book-list-333 img {
+        padding-top: 20px;
+        margin-left: 10px;
+        padding-left: 40px;
+    }
+
+}
+@media only screen and (max-width:876px) {
+    .portfolioo-logo{
+        display: none;
+    } 
 }
 
 

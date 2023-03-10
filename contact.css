@@ -113,5 +113,12 @@
     padding-left: 120px;
     padding-top: 20px;
 }
+.contactt-parent-div-for-info {
+   display: grid;
+   grid-template-columns: auto auto;
+   width: 500px;
+   color: white;
+
+}
 
  
