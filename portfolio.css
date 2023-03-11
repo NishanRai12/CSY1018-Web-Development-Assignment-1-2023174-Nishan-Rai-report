@@ -348,12 +348,12 @@ footer{
 }
 .portfoliooo-heading-for-socialmedia-links h1 {
     padding-top: 60px;
-    padding-left: 100px;
+    padding-left: 140px;
     font-family: 'Times New Roman', Times, serif;
     color: #2d3540;
 }
 .portfoliooo-socailmedia-links {
-    padding-left: 110px;
+    padding-left: 150px;
 }
 .portfoliooo-socailmedia-links a {
     margin: 10px;
@@ -595,8 +595,6 @@ footer{
         padding-top: 20px;
         margin-left: 40px;
     }
-
-
 }
 @media only screen and (max-width:628px) {
     .portfolio-outercontents-for-book-list-111 img {
@@ -619,9 +617,115 @@ footer{
 @media only screen and (max-width:876px) {
     .portfolioo-logo{
         display: none;
-    } 
-}
+    }
+    footer{
+        height: 240px;
+    }
+    .portfoliooo-footer-inner-contentssss h1{
+        font-size: 20px;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+    .portfoliooo-footer-inner-contentssss a {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .portfoliooo-footer-inner-contentssss {
+       padding-top: 60px;
+    }
+    .portfoliooo-footer-inner-copyright{
+        font-size: 14px;
+    }
+    .portfoliooo-parent-div-for-info {
+        padding-left: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .portfoliooo-child-div-for-info h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        padding-left: 10px;
 
+    }
+    .portfoliooo-child-div-for-info  p {
+        padding-top: 5px;
+        font-size: 15px;
+        font-weight: bold;
+        padding-left: 15px;
+    }
+    .portfoliooo-heading-for-socialmedia-links h1 {
+        padding-top: 80px;
+        padding-left: 40px;
+        font-size: 20px;
+    }
+    .portfoliooo-socailmedia-links i a {
+        padding-left: 50px;
+    }
+    .portfoliooo-socailmedia-links  {
+        margin: 10px;
+        color: #2d3540;
+        padding-left: 5px;
+    }
+    .portfoliooo-socailmedia-links {
+        display: flex;
+        flex-direction:row;
+    }
+}
+@media only screen and (max-width:586px) {
+    footer{
+        height: 140px;
+    }
+    .portfoliooo-footer-inner-contentssss h1{
+        font-size: 15px;
+        padding-top: 4px;
+        padding-left: 10px;
+    }
+    .portfoliooo-footer-inner-contentssss a {
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .portfoliooo-footer-inner-contentssss {
+       padding-top: 30px;
+    }
+    .portfoliooo-footer-inner-copyright{
+        font-size: 10px;
+    }
+    .portfoliooo-parent-div-for-info {
+        padding-left: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .portfoliooo-child-div-for-info h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        padding-left: 10px;
+
+    }
+    .portfoliooo-child-div-for-info  p {
+        padding-top: 5px;
+        font-size: 9px;
+        font-weight: bold;
+        padding-left: 15px;
+    }
+    .portfoliooo-heading-for-socialmedia-links h1 {
+        padding-top: 30px;
+        padding-left: 40px;
+        font-size: 15px;
+    }
+    .portfoliooo-socailmedia-links i a {
+        padding-left: 30px;
+    }
+    .portfoliooo-socailmedia-links  {
+        margin: 10px;
+        color: #2d3540;
+        padding-left: 5px;
+    }
+    .portfoliooo-socailmedia-links {
+        display: flex;
+        flex-direction:row;
+    }
+  
+}
 
 
 
