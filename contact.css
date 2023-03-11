@@ -238,6 +238,58 @@ footer{
       font-size: large;
       padding-left: 20px;
    }
+   footer{
+      height: 240px;
+  }
+  .contacttt-footer-inner-contentssss h1{
+      font-size: 20px;
+      padding-top: 5px;
+      padding-left: 10px;
+  }
+  .contacttt-footer-inner-contentssss a {
+      font-size: 14px;
+      font-weight: bold;
+  }
+  .contacttt-footer-inner-contentssss {
+     padding-top: 60px;
+  }
+  .contacttt-footer-inner-copyright{
+      font-size: 14px;
+  }
+  .contacttt-parent-div-for-info {
+      padding-left: 40px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  .contacttt-child-div-for-info h1 {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 25px;
+      padding-left: 10px;
+
+  }
+  .contacttt-child-div-for-info  p {
+      padding-top: 5px;
+      font-size: 15px;
+      font-weight: bold;
+      padding-left: 15px;
+  }
+  .contacttt-heading-for-socialmedia-links h1 {
+      padding-top: 80px;
+      padding-left: 40px;
+      font-size: 20px;
+  }
+  .contacttt-socailmedia-links i a {
+      padding-left: 50px;
+  }
+  .contacttt-socailmedia-links  {
+      margin: 10px;
+      color: #2d3540;
+      padding-left: 5px;
+  }
+  .contacttt-socailmedia-links {
+      display: flex;
+      flex-direction:row;
+  }
 }
 @media only screen and (max-width:550px) {
    .contactt-containerr-out-boxx {
@@ -282,6 +334,111 @@ footer{
       font-size: medium;
       padding-left: 5px;
    }
+    footer{
+        height: 140px;
+    }
+    .footer-inner-contentssss h1{
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    .footer-inner-contentssss a {
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .footer-inner-contentssss {
+       padding-top: 25px;
+    }
+    .footer-inner-copyright{
+        font-size: 10px;
+    }
+    .homeee-parent-div-for-info {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 500px;
+        color:#2d3540;
+        padding-left: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .homeee-child-div-for-info h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+    }
+    .homeee-child-div-for-info  p {
+        padding-top: 5px;
+        font-size: 9px;
+        font-weight: bold;
+    }
+    .heading-for-socialmedia-linkss h1 {
+        padding-top: 20px;
+        padding-left: 50px;
+        font-size: 15px;
+    }
+    .homee-socailmedia-links i a {
+        padding-left: 30px;
+    }
+    .homee-socailmedia-links a  {
+        margin: 10px;
+        color: #2d3540;
+    }
+    .homee-socailmedia-links {
+        display: flex;
+        flex-direction:row;
+        padding-left: 20px;
+    }
+    footer{
+      height: 140px;
+  }
+  .contacttt-footer-inner-contentssss h1{
+      font-size: 15px;
+      padding-top: 4px;
+      padding-left: 10px;
+  }
+  .contacttt-footer-inner-contentssss a {
+      font-size: 10px;
+      font-weight: bold;
+  }
+  .contacttt-footer-inner-contentssss {
+     padding-top: 30px;
+  }
+  .contacttt-footer-inner-copyright{
+      font-size: 10px;
+  }
+  .contacttt-parent-div-for-info {
+      padding-left: 40px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  .contacttt-child-div-for-info h1 {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 15px;
+      padding-left: 10px;
+
+  }
+  .contacttt-child-div-for-info  p {
+      padding-top: 5px;
+      font-size: 9px;
+      font-weight: bold;
+      padding-left: 15px;
+  }
+  .contacttt-heading-for-socialmedia-links h1 {
+      padding-top: 30px;
+      padding-left: 40px;
+      font-size: 15px;
+  }
+  .contacttt-socailmedia-links i a {
+      padding-left: 30px;
+  }
+  .contacttt-socailmedia-links  {
+      margin: 10px;
+      color: #2d3540;
+      padding-left: 5px;
+  }
+  .contacttt-socailmedia-links {
+      display: flex;
+      flex-direction:row;
+  }
+
 }
 
  
