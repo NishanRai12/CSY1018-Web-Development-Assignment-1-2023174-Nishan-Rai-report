@@ -1,12 +1,9 @@
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
-body {
-    background-color:#2f3437;
-}
-
+/*This is the header part of home page*/
 .homeee-header-on-toppp {
     padding: 80px;
     background-color:#c2c6ba;
@@ -23,12 +20,12 @@ nav li {
    font-size: larger;
    font-weight: 800;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   color:#2d3540;
+   color: #2d3540;
    list-style: none;
    transition: 0.4s all;
 }
 .primaryyy-contents-of-top ul li a:hover{
-    color:#895654;
+    color: #895654;
     text-decoration: none;
 }
 .logo {
@@ -38,36 +35,46 @@ nav li {
 .nav-list {
     float: left;
 }
+.logo img {
+    height: 60px;
+    width: 80px;
+}
+/*this is the body of the home page*/
+body {
+    background-color:#2f3437;
+}
 .box-onn-topp {
- padding-left: 20px;
- padding-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .box-onn-topp img {
     height: 400px;
     width: 100%;
-
 }
 .outerrr-contents-of-box-1{
- display: flex;
- flex-direction: row;
- padding-left: 20px;
- padding-right: 20px;
- margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
 }
-
+.innerrr-contents-of-box-1 img {
+    height: 500px;
+    width: 400px;
+}
 .divv-heading-primaryyyy{
-    font-size:xx-large;
+    font-size: xx-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: blanchedalmond;
 }
 .divv-heading-primaryyyy-2{
-    font-size:xx-large;
+    font-size: xx-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: blanchedalmond;
     padding-left: 32%;
 }
 .divv-heading-secondaryyyy{
-    font-size:xx-large;
+    font-size: xx-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: blanchedalmond;
     margin-bottom: 30px;
@@ -115,7 +122,7 @@ button{
 }
 button a {
     color: #2f3437;
-    size: 20px;
+    font-size: 30px;
     text-decoration: none;
     transition: 0.4s all;
     
@@ -129,6 +136,7 @@ button a {
     color: rgb(255, 255, 255);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+/*This is the footer part of home page*/
 footer{
     color: black;
     background-color:#c2c6ba;
@@ -142,8 +150,7 @@ footer{
 }
 .footer-inner-contentssss h1{
     font-size: xx-large;
-    font-family: serif;
-    
+    font-family: serif; 
 }
 .footer-inner-contentssss a {
     text-decoration: none;
@@ -198,7 +205,8 @@ footer{
      padding-left: 10px; 
      display:none;
     }
-   .box-onn-topp img {
+/*this is the responsive management of body*/
+    .box-onn-topp img {
      height: 200px;
      width: 100%;
    }
@@ -260,7 +268,7 @@ footer{
     }
     button a {
         color: #2f3437;
-        size: 20px;
+        font-size: 20px;
         text-decoration: none;
         transition: 0.4s all;
     }
@@ -282,6 +290,7 @@ footer{
         padding-left: 90px;
         height: 600px;
     }
+    /*This is the responsive management for footer*/
     footer{
         height: 140px;
     }

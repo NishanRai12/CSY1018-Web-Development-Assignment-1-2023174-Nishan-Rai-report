@@ -3,9 +3,7 @@
    padding: 0;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
  }
-body {
-   background-color:#2f3437;
-}
+/*This is the header part of work experience html*/
 .experienceee-homeee-header-on-toppp {
    padding: 80px;
    background-color:#c2c6ba;
@@ -36,6 +34,14 @@ nav li {
 }
 .experienceee-nav-list {
    float: left;
+}
+.experienceee-logo img {
+   height: 60px;
+   width: 80px;
+}
+/*This is the body part of work experience*/
+body {
+   background-color:#2f3437;
 }
 .experienceee-div-parentt-compartment {
    display: grid;
@@ -95,6 +101,7 @@ nav li {
    font-family: 'Times New Roman', Times, serif;
    color:black;
    background-color: #c2c6ba;
+   padding-left: 320px;
 }
 .experienceee-child-div-compertment li {
    font-size: larger;
@@ -106,8 +113,23 @@ nav li {
 .experienceee-child-div-compertment span {
    font-family: sans-serif;
    font-weight: 600;
-   
 }
+.inner-contents-for-experience h2 {
+   color: #c2c6ba;
+   font-family: 'Times New Roman', Times, serif;
+   padding-top: 30px;
+}
+.inner-contents-for-experience span {
+   padding-left: 40px;
+   font-weight: bold;
+}
+.inner-contents-for-experience p {
+   font-family: sans-serif;
+   font-size: x-large;
+   padding-top: 20px;
+   color: aliceblue;
+}
+/*This is the footer of the work experience*/
 footer{
    color: black;
    background-color:#c2c6ba;
@@ -172,126 +194,162 @@ footer{
    color: #2d3540;
 }
 @media only screen and (max-width:780px) {
+/*responsive management for nav*/
    nav li {
-    display: inline-block;
-    padding-left: 10px; 
-    display:none;
-   }
-  
+   display: inline-block;
+   padding-left: 10px; 
+   display:none;
+}
+/*responsive management for body*/
+.inner-experienceee-div-childd-compartment-links h1 {
+   padding-left: 150px;
+}
+.inner-experienceee-div-childd-compartment-links a {
+   padding-left: 80px;
+}
+.experienceee-child-div-compertment h1 {
+   padding-left: 200px;
+}
+
 }
 @media only screen and (max-width:876px) {
-   .experienceee-logo{
-       display: none;
-   }
-   footer{
-      height: 240px;
-   }
-  .experienceee-footer-inner-contentssss h1{
-      font-size: 20px;
-      padding-top: 5px;
-      padding-left: 10px;
-  }
-  .experienceee-footer-inner-contentssss a {
-      font-size: 14px;
-      font-weight: bold;
-  }
-  .experienceee-footer-inner-contentssss {
-     padding-top: 60px;
-  }
-  .experienceee-footer-inner-copyright{
-      font-size: 14px;
-  }
-  .experienceee-parent-div-for-info {
-      padding-left: 40px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-  }
-  .experienceee-child-div-for-info h1 {
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 25px;
-      padding-left: 10px;
-
-  }
-  .experienceee-child-div-for-info  p {
-      padding-top: 5px;
-      font-size: 15px;
-      font-weight: bold;
-      padding-left: 15px;
-  }
-  .experienceee-heading-for-socialmedia-links h1 {
-      padding-top: 80px;
-      padding-left: 40px;
-      font-size: 20px;
-  }
-  .experienceee-socailmedia-links i a {
-      padding-left: 50px;
-  }
-  .experienceee-socailmedia-links {
-      margin: 10px;
-      color: #2d3540;
-      padding-left: 5px;
-  }
-  .experienceee-socailmedia-links {
-      display: flex;
-      flex-direction:row;
-  }
+.experienceee-logo{
+   display: none;
 }
-@media only screen and (max-width:966px){
-   .inner-experienceee-div-childd-compartment-2-1 h1 {
-      padding-left: 170px;
-   }
-}
-@media only screen and (max-width:550px) {
-  footer{
-    height: 140px;
+/*responsive management for footer*/
+footer{
+   height: 240px;
 }
 .experienceee-footer-inner-contentssss h1{
-    font-size: 15px;
-    padding-top: 4px;
-    padding-left: 10px;
+   font-size: 20px;
+   padding-top: 5px;
+   padding-left: 10px;
 }
 .experienceee-footer-inner-contentssss a {
-    font-size: 10px;
-    font-weight: bold;
+   font-size: 14px;
+   font-weight: bold;
+}
+.experienceee-footer-inner-contentssss {
+   padding-top: 60px;
+}
+.experienceee-footer-inner-copyright{
+   font-size: 14px;
+}
+.experienceee-parent-div-for-info {
+   padding-left: 40px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.experienceee-child-div-for-info h1 {
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 25px;
+   padding-left: 10px;
+}
+.experienceee-child-div-for-info  p {
+   padding-top: 5px;
+   font-size: 15px;
+   font-weight: bold;
+   padding-left: 15px;
+}
+.experienceee-heading-for-socialmedia-links h1 {
+   padding-top: 80px;
+   padding-left: 40px;
+   font-size: 20px;
+}
+.experienceee-socailmedia-links i a {
+   padding-left: 50px;
+}
+.experienceee-socailmedia-links {
+   margin: 10px;
+   color: #2d3540;
+   padding-left: 5px;
+}
+.experienceee-socailmedia-links {
+   display: flex;
+   flex-direction:row;
+}
+}
+@media only screen and (max-width:966px){
+.inner-experienceee-div-childd-compartment-2-1 h1 {
+   padding-left: 170px;
+}
+}
+@media only screen and (max-width:550px) {
+/*responsive management for footer*/
+footer{
+   height: 140px;
+}
+.experienceee-footer-inner-contentssss h1{
+   font-size: 15px;
+   padding-top: 4px;
+   padding-left: 10px;
+}
+.experienceee-footer-inner-contentssss a {
+   font-size: 10px;
+   font-weight: bold;
 }
 .experienceee-footer-inner-contentssss {
    padding-top: 30px;
 }
 .experienceee-footer-inner-copyright{
-    font-size: 10px;
+   font-size: 10px;
 }
 .experienceee-parent-div-for-info {
-    padding-left: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+   padding-left: 40px;
+   padding-top: 20px;
+   padding-bottom: 20px;
 }
 .experienceee-child-div-for-info h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
-    padding-left: 10px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 15px;
+   padding-left: 10px;
 
 }
 .experienceee-child-div-for-info  p {
-    padding-top: 5px;
-    font-size: 9px;
-    font-weight: bold;
-    padding-left: 15px;
+   padding-top: 5px;
+   font-size: 9px;
+   font-weight: bold;
+   padding-left: 15px;
 }
 .experienceee-heading-for-socialmedia-links h1 {
-    padding-top: 30px;
-    padding-left: 40px;
-    font-size: 15px;
+   padding-top: 30px;
+   padding-left: 40px;
+   font-size: 15px;
 }
 .experienceee-socailmedia-links i a {
-    padding-left: 30px;
+   padding-left: 30px;
 }
 .experienceee-socailmedia-links  {
-    margin: 10px;
-    color: #2d3540;
-    padding-left: 5px;
+   margin: 10px;
+   color: #2d3540;
+   padding-left: 5px;
 }
 .experienceee-socailmedia-links {
-    display: flex;
-    flex-direction:row;
+   display: flex;
+   flex-direction:row;
+}
+/*responsive management for body*/
+.experienceee-div-parentt-compartment {
+   display:flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.experienceee-div-childd-compartment-1 img {
+   padding-left: 90px;
+}
+.inner-experienceee-div-childd-compartment-2-0 h1 {
+   padding-left: 50px;
+}
+.inner-experienceee-div-childd-compartment-2-0 p {
+   padding-left: 100px;
+}
+.inner-experienceee-div-childd-compartment-2-1 h1 {
+   padding-left: 100px;
+}
+.experienceee-child-div-compertment {
+   padding-left: 20px;
+}
+.experienceee-child-div-compertment h1 {
+   padding-left: 100px;
 }
 }
